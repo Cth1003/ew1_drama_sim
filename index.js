@@ -2,19 +2,6 @@
 var dete = new Date();
 var hours = dete.getHours();
 var mins = dete.getMinutes();
-//Import CSS
-var cssId = 'dixcord';  
-if (!document.getElementById(cssId))
-{
-    var head  = document.getElementsByTagName('head')[0];
-    var link  = document.createElement('link');
-    link.id   = cssId;
-    link.rel  = 'stylesheet';
-    link.type = 'text/css';
-    link.href = 'https://discordapp.com/assets/22d05df3752ed5186dc5.css';
-    link.media = 'all';
-    head.appendChild(link);
-}
 //da discord mode : on
 sendnewmsg("Epic // NO MSPAINT", "wirus");
 sleep(2000);
