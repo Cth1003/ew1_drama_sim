@@ -21,7 +21,9 @@
     animation: none
 }@font-face {
     font-family: 'dixcordofficialfont';
-    src: url('HelveticaNeueLTStd Lt.woff');
+font-style: normal;
+font-weight: normal; /*xdddd*/
+src: local('dixcordofficialfont'), url('HelveticaNeueLTStd Lt.woff') format('woff');
 } body {
     font-family: 'dixcordofficialfont';
     background-color: #36393e;
