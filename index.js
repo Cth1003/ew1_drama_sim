@@ -27,5 +27,5 @@ setTimeout(function(){ sendnewmsg("J.J (furry and hairplane) bot", "reed the doc
 }
 function sendnewmsg(usrn, msg) {
 //o no jquery
-document.write('<span class="username-wrapper"><strong class="user-name">' + usrn + '</strong></span><span class="highlight-separator"> - </span><span class="timestamp">Today at ' + hours + ":" + mins +'</span></h2><div class="message-text"><div class="btn-option"></div><div class="markup"><!-- react-text: 12191 -->' + msg + '<!-- /react-text --></div></div></div>');
+document.body.innerHtml += '<span class="username-wrapper"><strong class="user-name">' + usrn + '</strong></span><span class="highlight-separator"> - </span><span class="timestamp">Today at ' + hours + ":" + mins +'</span></h2><div class="message-text"><div class="btn-option"></div><div class="markup"><!-- react-text: 12191 -->' + msg + '<!-- /react-text --></div></div></div>';
 }
