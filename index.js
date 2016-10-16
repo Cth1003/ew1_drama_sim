@@ -3,26 +3,27 @@ var dete = new Date();
 var hours = dete.getHours();
 var mins = dete.getMinutes();
 //da discord mode : on
+
 document.addEventListener("DOMContentLoaded", function(event) {
-setTimeout(function(){ sendnewmsg("Epic // NO MSPAINT", "wirus"); }, 10);
-setTimeout(function(){ sendnewmsg("FireC", "dextop"); }, 20);
-setTimeout(function(){ sendnewmsg("Cth103", "taxbar"); }, 30);
-setTimeout(function(){ sendnewmsg("pengu", "@Clyde audit logs pls"); }, 40);
-sendnewmsg("pengu", "a");
-sendnewmsg("pengu", "aa");
-sendnewmsg("pengu", "a");
-setTimeout(function(){ sendnewmsg("pengu", "aav"); }, 60);
-sendnewmsg("pengu", "aa");
-setTimeout(function(){ sendnewmsg("pengu", "av"); }, 90);
-sendnewmsg("pengu", "a");
-sendnewmsg("pengu", "aaaa");
-sendnewmsg("pengu", "aa");
-sendnewmsg("pengu", "aaaa");
-setTimeout(function(){ sendnewmsg("pengu", "va"); }, 100);
-sendnewmsg("pengu", "aa");
-setTimeout(function(){ sendnewmsg("pengu", "a"); }, 120);
-sendnewmsg("J.J (furry and hairplane)", "jjbot/help");
-setTimeout(function(){ sendnewmsg("J.J (furry and hairplane) bot", "reed the docs to get help xdddddddddddddddddddd"); }, 1000);
+setTimeout(function(){ sendnewmsg("Epic // NO MSPAINT", "wirus"); }, 1000);
+setTimeout(function(){ sendnewmsg("FireC", "dextop"); }, 2000);
+setTimeout(function(){ sendnewmsg("Cth103", "taxbar"); }, 3000);
+setTimeout(function(){ sendnewmsg("pengu", "@Clyde audit logs pls"); }, 4000);
+setTimeout(function(){ sendnewmsg("pengu", "a"); }, 5000);
+setTimeout(function(){ sendnewmsg("pengu", "aa"); }, 5000);
+setTimeout(function(){ sendnewmsg("pengu", "a"); }, 5000);
+setTimeout(function(){ sendnewmsg("pengu", "aav"); }, 6000);
+setTimeout(function(){ sendnewmsg("pengu", "aa"); }, 5000);
+setTimeout(function(){ sendnewmsg("pengu", "av"); }, 9000);
+setTimeout(function(){ sendnewmsg("pengu", "a"); }, 5000);
+setTimeout(function(){ sendnewmsg("pengu", "aaaa"); }, 5000);
+setTimeout(function(){ sendnewmsg("pengu", "aa"); }, 5000);
+setTimeout(function(){ sendnewmsg("pengu", "aaaa"); }, 5000);
+setTimeout(function(){ sendnewmsg("pengu", "va"); }, 5001);
+setTimeout(function(){ sendnewmsg("pengu", "aa"); }, 5020);
+setTimeout(function(){ sendnewmsg("pengu", "a"); }, 5030);
+setTimeout(function(){ sendnewmsg("J.J (furry and hairplane)", "jjbot/help"); }, 10000);
+setTimeout(function(){ sendnewmsg("J.J (furry and hairplane) bot", "reed the docs to get help xdddddddddddddddddddd"); }, 20000);
   });
 function sendnewmsg(usrn, msg) {
 //o no jquery
