@@ -1,4 +1,4 @@
-.bot - tag {
+.bot-tag {
     background: #7289da;font-size:10px;font-weight:600;color:# fff!important;margin - left: 6 px;padding: 1 px 2 px; - webkit - border - radius: 3 px;border - radius: 3 px;text - transform: uppercase;vertical - align: bottom;line - height: 16 px; - webkit - flex - shrink: 0;flex - shrink: 0
 }.bot - tag.bot - tag - invert {
     background: #fff;color: #7289da!important}.compact .bot-tag{margin:0 3px 0 0}.channel-members .bot-tag{line-height:15px;height:14px}.spinner{display:-webkit-box;display:-moz-box;display:-webkit-flex;display:-ms-flexbox;display:box;display:flex;-webkit-box-pack:center;-moz-box-pack:center;-o-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-box-align:center;-moz-box-align:center;-o-box-align:center;-ms-flex-align:center;-webkit-align-items:center;align-items:center}.spinner-inner{position:relative;display:inline-block;width:32px;height:32px}.spinner-wandering-cubes .spinner-item{background-color:# 7289 da;width: 10 px;height: 10 px;position: absolute;top: 0;left: 0; - webkit - animation: spinner - wandering - cubes 1.8 s infinite ease - in -out; - moz - animation: spinner - wandering - cubes 1.8 s infinite ease - in -out; - o - animation: spinner - wandering - cubes 1.8 s infinite ease - in -out; - ms - animation: spinner - wandering - cubes 1.8 s infinite ease - in -out;animation: spinner - wandering - cubes 1.8 s infinite ease - in -out
@@ -19,6 +19,8 @@
 }.stop - animation.spinner - pulsing - ellipsis.spinner - item {
     -webkit - animation: none; - moz - animation: none; - o - animation: none; - ms - animation: none;
     animation: none
+}body {
+    background-color: #36393e;
 }
 @ - moz - keyframes spinner - wandering - cubes {
     25 % {-webkit - transform: translateX(22 px) rotate(-90 deg) scale(.5); - moz - transform: translateX(22 px) rotate(-90 deg) scale(.5); - o - transform: translateX(22 px) rotate(-90 deg) scale(.5); - ms - transform: translateX(22 px) rotate(-90 deg) scale(.5);transform: translateX(22 px) rotate(-90 deg) scale(.5)
