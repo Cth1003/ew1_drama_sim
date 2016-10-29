@@ -32,8 +32,12 @@ setTimeout(function(){ sendnewmsg("pengu", "aaaa"); }, 5000);
 setTimeout(function(){ sendnewmsg("pengu", "va"); }, 5001);
 setTimeout(function(){ sendnewmsg("pengu", "aa"); }, 5020);
 setTimeout(function(){ sendnewmsg("pengu", "a"); }, 5030);
-setTimeout(function(){ sendnewmsg("J.J", "jjbot/help"); }, 10000);
-setTimeout(function(){ sendnewmsg("J.J bot", "reed the docs to get help xdddddddddddddddddddd"); }, 20000);
+setTimeout(function(){ sendnewmsg("J.J", "jjbot/help"); }, 60000);
+setTimeout(function(){ sendnewmsg("J.J bot", "reed the docs to get help xdddddddddddddddddddd"); }, 65000);
+setTimeout(function(){ sendnewmsg("pengu", "JULLIA I WILL KMS IF YOU DONT GIVE ME OWNER"); }, 69000);
+setTimeout(function(){ sendnewmsg("pengu", "JULLIA I WILL KMS IF YOU DONT GIVE ME OWNER"); }, 70000);
+setTimeout(function(){ sendnewmsg("pengu", "JULLIA I WILL KMS IF YOU DONT GIVE ME OWNER"); }, 75000);
+setTimeout(function(){ sendnewmsg("System Restore", "no pengu i wont give you owner"); }, 8000);
 }
 function sendnewmsg(usrn, msg) {
 if (usrn.startsWith("FireC")){
