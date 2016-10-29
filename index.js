@@ -24,7 +24,7 @@ setTimeout(function(){ sendnewmsg("pengu", "aa"); }, 5000);
 setTimeout(function(){ sendnewmsg("pengu", "a"); }, 5000);
 setTimeout(function(){ sendnewmsg("pengu", "aav"); }, 6000);
 setTimeout(function(){ sendnewmsg("pengu", "aa"); }, 5000);
-setTimeout(function(){ sendnewmsg("pengu", "av"); }, 9000);
+setTimeout(function(){ sendnewmsg("pengu", "av"); }, 5002);
 setTimeout(function(){ sendnewmsg("pengu", "a"); }, 5000);
 setTimeout(function(){ sendnewmsg("pengu", "aaaa"); }, 5000);
 setTimeout(function(){ sendnewmsg("pengu", "aa"); }, 5000);
