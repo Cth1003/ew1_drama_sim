@@ -41,7 +41,10 @@ if (usrn.startsWith("FireC")){
 } else if (usrn.startsWith("Epic //") || usrn.startsWith("Cth103")) {
      var ono = create('<strong class="user-name"><span class="username-wrapper"><strong class="user-name"><img src="red.PNG">' + usrn + '</strong></span><span class="highlight-separator"> - </span><span class="timestamp">Today at ' + hours + ":" + mins +'</span></h2><div class="message-text"><div class="btn-option"></div><div class="markup"><!-- react-text: 12191 --> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;' + msg + '<!-- /react-text --></div></div></div>');
 } else {
-       var ono = create('<strong class="user-name"><span class="username-wrapper"><strong class="user-name">' + usrn + '</strong></span><span class="highlight-separator"> - </span><span class="timestamp">Today at ' + hours + ":" + mins +'</span></h2><div class="message-text"><div class="btn-option"></div><div class="markup"><!-- react-text: 12191 --> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;' + msg + '<!-- /react-text --></div></div></div>');
+    } else if (usrn.startsWith("pengu") || usrn.startsWith("Cth103")) {
+     var ono = create('<strong class="user-name"><span class="username-wrapper"><strong class="user-name"><img src="red.PNG">' + usrn + '</strong></span><span class="highlight-separator"> - </span><span class="timestamp">Today at ' + hours + ":" + mins +'</span></h2><div class="message-text"><div class="btn-option"></div><div class="markup"><!-- react-text: 12191 --> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;' + msg + '<!-- /react-text --></div></div></div>');
+     } else {
+        var ono = create('<strong class="user-name"><span class="username-wrapper"><strong class="user-name">' + usrn + '</strong></span><span class="highlight-separator"> - </span><span class="timestamp">Today at ' + hours + ":" + mins +'</span></h2><div class="message-text"><div class="btn-option"></div><div class="markup"><!-- react-text: 12191 --> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;' + msg + '<!-- /react-text --></div></div></div>');
 }
 document.body.appendChild(ono);
 }
