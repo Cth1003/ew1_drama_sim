@@ -22,10 +22,10 @@ setTimeout(function(){ sendnewmsg("pengu", "@Clyde audit logs pls"); }, 4000);
 setTimeout(function(){ sendnewmsg("pengu", "a"); }, 5000);
 setTimeout(function(){ sendnewmsg("pengu", "aa"); }, 5000);
 setTimeout(function(){ sendnewmsg("J.J", "jjbot/help"); }, 6000);
-setTimeout(function(){ sendnewmsg("J.J bot", "reed the docs to get help xdddddddddddddddddddd"); }, 6500);
-setTimeout(function(){ sendnewmsg("pengu", "JULIA I WILL KMS IF YOU DONT GIVE ME OWNER"); }, 6900);
-setTimeout(function(){ sendnewmsg("pengu", "JULIA I WILL KMS IF YOU DONT GIVE ME OWNER"); }, 7000);
-setTimeout(function(){ sendnewmsg("pengu", "JULIA I WILL KMS IF YOU DONT GIVE ME OWNER"); }, 7500);
+setTimeout(function(){ sendnewmsg("J.J bot", "reed the docs to get help xdddddddddddddddddddd"); }, 6550);
+setTimeout(function(){ sendnewmsg("pengu", "JULIA I WILL KMS IF YOU DONT GIVE ME OWNER"); }, 6980);
+setTimeout(function(){ sendnewmsg("pengu", "JULIA I WILL KMS IF YOU DONT GIVE ME OWNER"); }, 7040);
+setTimeout(function(){ sendnewmsg("pengu", "JULIA I WILL KMS IF YOU DONT GIVE ME OWNER"); }, 7503);
 setTimeout(function(){ sendnewmsg("System Restore", "NO pengu i wont give you owner"); }, 8000);
 }
 function sendnewmsg(usrn, msg) {
