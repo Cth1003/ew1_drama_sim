@@ -28,6 +28,9 @@ src: local('dixcordofficialfont'), url('HelveticaNeueLTStd Lt.woff') format('wof
     color: white;
     font-family: 'dixcordofficialfont';
     background-color: #36393e;
+} .sob {
+    position: relative; 
+    height: 400px;
 }
 @ - moz - keyframes spinner - wandering - cubes {
     25 % {-webkit - transform: translateX(22 px) rotate(-90 deg) scale(.5); - moz - transform: translateX(22 px) rotate(-90 deg) scale(.5); - o - transform: translateX(22 px) rotate(-90 deg) scale(.5); - ms - transform: translateX(22 px) rotate(-90 deg) scale(.5);transform: translateX(22 px) rotate(-90 deg) scale(.5)
